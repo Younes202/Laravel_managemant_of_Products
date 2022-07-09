@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/restfulapi":{"type":null,"mount_options":["uid=1000","gid=1000","_netdev"],"guestpath":"/home/vagrant/restfulapi","hostpath":"C:/Users/sphinix/Desktop/mang_products","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/sphinix/Desktop/mang_products","disabled":false,"__vagrantfile":true}}}
