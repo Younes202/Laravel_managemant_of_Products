@@ -14,11 +14,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Products extends Model
 {
-    use HasFactory;
-    const active = "Active";
-    const desactive = "Desactive";
-    protected $fillable=["Name","Description","Quantity","Status","Product_Transaction_id","Categorie_Product_id"];
+    const AVAILABLE_PRODUCT ='Available';
+    const UNAVAILABLE_PRODUCT ='unavailable';
 
+    use HasFactory;
+    protected $fillable=["Name","Description","Quantity","Status","image","Seller_id"];
+    public function isAvailable(){
+        return $this->status == Products::AVAILABLE_PRODUCT;
+    }
     public function Categories(){
         return $this->belongsToMany(Categories::class ,"Categorie_Product_id");
     }

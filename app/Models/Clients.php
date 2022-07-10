@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+namespace App\Models\Transactions;
 
 namespace App\Models\Transactions;
 
