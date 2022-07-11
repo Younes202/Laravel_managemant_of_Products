@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Models;
-namespace App\Models\Transactions;
 
 namespace App\Models\Transactions;
+
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
